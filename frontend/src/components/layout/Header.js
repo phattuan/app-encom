@@ -23,16 +23,14 @@ const Header = () => {
 
     return (
         <Fragment>
-            <nav className="navbar row">
+            <nav className="navbar row header-app">
                 <div className="col-12 col-md-3">
                     <div className="navbar-brand">
                         <Link to="/">
-                            <h1 classNamee="logo-tp" style={{
+                            <h1 className="logo-tp" style={{
                                 fontSize: '2.5rem',
                                 textTransform: 'uppercase',
-                                color: "white",
-                                textShadow:"0px 0px 5px black",
-                                marginLeft:'20px'
+                                marginLeft: '20px',
                             }}>store tp</h1>
                         </Link>
                     </div>

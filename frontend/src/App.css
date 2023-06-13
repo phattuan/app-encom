@@ -1,5 +1,4 @@
-html,
-body {
+html{
   font-family: 'Amazon Ember';
   width: 100%;
   height: 100%;
@@ -32,29 +31,59 @@ nav {
 }
 
 #search_btn {
-  background-color: #1E90FF;
+  background-color: transparent;
+  border: none !important;
+  outline: none !important;
 }
 
 .input-group {
   width: 90%;
   margin-right: 35%;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  background-color: rgba(0, 0, 0, .5);
 }
+
+/* .input-group-append {
+  border: none;
+  outline: none;
+} */
 
 #search_field {
   height: 2.4rem;
   padding: 1rem;
+  background: transparent;
+  /* border-radius: 50px; */
+  border: none;
+  outline: none;
+  color: white;
 }
+
+#search_field::placeholder {
+  color: white;
+}
+
 
 #login_btn,
 #view_btn {
-  background-color: #1E90FF;
+  background-color: black;
   padding: 0.4rem 1.8rem;
   font-family: calibri;
+  color: white;
+  font-family: 'Playfair', serif;
+
+}
+
+.fa-search {
+  color: white !important;
 }
 
 #cart {
   font-size: 1rem;
-  color: white;
+  color: black;
+  font-family: 'Playfair', serif;
+  font-size: 1.2rem;
 }
 
 #cart_count {
@@ -785,4 +814,17 @@ a {
 .radar {
   width: 500px;
   height: 500px;
+}
+
+.logo-tp {
+  font-family: 'Playfair', serif;
+  font-style: italic;
+  color: black;
+  text-shadow: 0px 0px 5px black;
+}
+
+.header-app {
+  background: transparent;
+  z-index: 1000;
+
 }
